@@ -5,9 +5,21 @@ body {
   font-size: 1.5em;
 }
 
+code {
+  background-color: #000;
+  border-radius: 4px;
+  font-family: ui-monospace, monospace;
+  padding: 0.15em 0.4em;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #333;
     color: #e0e0e0;
+  }
+
+  code {
+    background-color: #222;
+    color: #c2185b;
   }
 }
