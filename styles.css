@@ -6,13 +6,18 @@ body {
 }
 
 code {
-  background-color: #000;
-  border-radius: 4px;
+  background-color: #aaa;
+  border-radius: 0.4em;
+  color: #c2185b;
   font-family: ui-monospace, monospace;
-  padding: 0.15em 0.4em;
+  padding: 0 0.3em 0.1em 0.3em;
 }
 
 @media (prefers-color-scheme: dark) {
+  a {
+    color: #60a5fa;
+  }
+
   body {
     background-color: #333;
     color: #e0e0e0;
